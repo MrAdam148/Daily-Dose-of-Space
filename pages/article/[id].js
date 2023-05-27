@@ -21,10 +21,7 @@ export default function Article() {
         </p>
         <p className="articlemainbody">{article?.body}</p>
       </div>
-      <a
-        className="returnhome"
-        href="https://nextjs6yykgn-gdii--3000--272d3407.local-credentialless.webcontainer.io/"
-      >
+      <a className="returnhome" href="/">
         {' '}
         Return to main page{' '}
       </a>
