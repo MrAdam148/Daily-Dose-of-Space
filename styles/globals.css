@@ -4282,3 +4282,14 @@ body.is-preload #banner p {
 .seperator {
   margin-left: 50px;
 }
+
+.archivetitle {
+  font-size: xx-large;
+  background-color: cornflowerblue;
+  text-align: center;
+}
+
+.archivesubcateg {
+  text-decoration: underline;
+  margin-left: 50px;
+}

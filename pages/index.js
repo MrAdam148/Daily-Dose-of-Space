@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { articles } from '../database/articles';
+import { authors } from '../database/authors';
 
 export default function Home() {
   return (
@@ -72,6 +73,11 @@ export default function Home() {
                   </a>
                   <div class="content">
                     <h2 class="major">{article.title}</h2>
+                    <h5>
+                      <a href={'/author/' + article.author}>
+                        {authors[article.author - 1].name}
+                      </a>
+                    </h5>
                     <p>{article.description}</p>
                     <a href={'/article/' + article.id} class="special">
                       Learn more
@@ -220,7 +226,10 @@ export default function Home() {
               </li>
             </ul>
             <ul class="copyright">
-              <li>&copy; RobotSetGo. All rights reserved.</li>
+              <li>
+                &copy; RobotSetGo All rights reserved | Made by Adam
+                Papadopoulos
+              </li>
               <li>
                 Design: <a href="http://html5up.net">HTML5 UP</a>
               </li>
