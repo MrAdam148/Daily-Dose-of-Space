@@ -4257,7 +4257,7 @@ body.is-preload #banner p {
   border-radius: 50px;
   background-color: cornflowerblue;
   background-size: 100px;
-  margin-left: 8px;
+  margin-left: 48px;
 }
 
 .articlebody {
@@ -4266,15 +4266,19 @@ body.is-preload #banner p {
 
 .container {
   width: 800px;
-  margin-left: 10px;
+  margin-left: 50px;
   margin-right: 100px;
 }
 
 .articleauthor {
-  margin-left: 10px;
+  margin-left: 50px;
 }
 
 .returnhome {
   font-size: large;
-  margin-left: 10px;
+  margin-left: 50px;
+}
+
+.seperator {
+  margin-left: 50px;
 }

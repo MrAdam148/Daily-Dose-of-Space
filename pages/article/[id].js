@@ -11,7 +11,10 @@ export default function Article() {
       <h1 className="articletitle">{article?.title}</h1>
       <img className="articleimage" src={article?.img} alt="" />
       <h2 className="articleauthor">{article?.author}</h2>
-      ------------------------------------------------------------------------------
+      <div className="seperator">
+        {' '}
+        ------------------------------------------------------------------------------{' '}
+      </div>
       <div className="container">
         <p className="articlebody">
           <strong>{article?.description}</strong>
