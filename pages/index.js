@@ -72,8 +72,8 @@ export default function Home() {
                   </a>
                   <div class="content">
                     <h2 class="major">{article.title}</h2>
-                    <p>{article.body}</p>
-                    <a href="#" class="special">
+                    <p>{article.description}</p>
+                    <a href={'/article/' + article.id} class="special">
                       Learn more
                     </a>
                   </div>
@@ -97,10 +97,10 @@ export default function Home() {
                       alt=""
                     />
                   </a>
-                  <h3 class="major">Stars,Suns & Darfs</h3>
+                  <h3 class="major">Stars, Suns & Darfs</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing vehicula
-                    id nulla dignissim dapibus ultrices.
+                    How are these warm giants survive and exist in the cold and
+                    dark cosmos from their birth to their death
                   </p>
                   <a href="#" class="special">
                     Learn more
@@ -115,8 +115,8 @@ export default function Home() {
                   </a>
                   <h3 class="major">Blackholes and their secrets</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing vehicula
-                    id nulla dignissim dapibus ultrices.
+                    What secrets does the mysterious world of blackholes contain
+                    and their possibilities
                   </p>
                   <a href="#" class="special">
                     Learn more
@@ -131,8 +131,9 @@ export default function Home() {
                   </a>
                   <h3 class="major">The hidden world of EXO Planets</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing vehicula
-                    id nulla dignissim dapibus ultrices.
+                    Come along as we search for the new "Earth" for the future
+                    of humanitys expansion to the stars but also the search of
+                    our cosmic neighbors
                   </p>
                   <a href="#" class="special">
                     Learn more
@@ -147,8 +148,8 @@ export default function Home() {
                   </a>
                   <h3 class="major">In a future near us, Mars</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing vehicula
-                    id nulla dignissim dapibus ultrices.
+                    Learn about our red brother in the solar system and what the
+                    futures hold for him
                   </p>
                   <a href="#" class="special">
                     Learn more

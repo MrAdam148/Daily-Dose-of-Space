@@ -4243,3 +4243,38 @@ body.is-preload #banner p {
     padding: 2em 1.5em 0.1em 1.5em;
   }
 }
+
+.articletitle {
+  background-color: cornflowerblue;
+  font-size: xx-large;
+  text-shadow: #555867;
+}
+
+.articleimage {
+  width: 50%;
+  height: 50%;
+  border: cornflowerblue;
+  border-radius: 50px;
+  background-color: cornflowerblue;
+  background-size: 100px;
+  margin-left: 8px;
+}
+
+.articlebody {
+  font-size: large;
+}
+
+.container {
+  width: 800px;
+  margin-left: 10px;
+  margin-right: 100px;
+}
+
+.articleauthor {
+  margin-left: 10px;
+}
+
+.returnhome {
+  font-size: large;
+  margin-left: 10px;
+}
