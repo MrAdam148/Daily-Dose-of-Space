@@ -227,7 +227,7 @@ export default function Home() {
             </ul>
             <ul class="copyright">
               <li>
-                &copy; RobotSetGo All rights reserved | Made by Adam
+                &copy; RobotSetGo. All rights reserved. | Made by Adam
                 Papadopoulos
               </li>
               <li>
